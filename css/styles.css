@@ -34,6 +34,18 @@ img[src^="../images/cover"] {
     border-radius: 0.4em;
 }
 
+#table-of-contents {
+    border-radius: 0.4em;
+    border: 2px solid #ea9d34;
+    padding: 0.3em;
+    max-width: 65%;
+    line-height: 0.3;
+}
+
+#text-table-of-contents {
+    font-size: 0.9rem;
+}
+
 /* center the html postamble */
 p.preamble {
     word-spacing: 15px;
