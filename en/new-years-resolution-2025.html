@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-02-07 sex 00:24 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My new years resolution</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet"
+                           type="text/css"
+                           href="../css/styles.css"/>
+</head>
+<body>
+<div id="preamble" class="status">
+<p class="blogName">Lazy Cat's Blog</p>
+               <p class="preamble">
+                 <a href="https://lovebird-connoisseur.github.io/blog/en/index.html">HOME</a> 
+                 <a href="https://lovebird-connoisseur.github.io/blog/en/archive.html">ARCHIVE</a> 
+                 <label>
+                   <input id="dark" type="checkbox" style="opacity:0;" />🌑
+                 </label>
+               </p>
+               <hr />
+</div>
+<div id="content" class="content">
+<h1 class="title">My new years resolution</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb786a51">1. Introduction</a></li>
+<li><a href="#orge669570">2. Objectives</a>
+<ul>
+<li><a href="#orgd5635ec">2.1. Finish the year with good grades</a></li>
+<li><a href="#org0900ae3">2.2. Improve physical appearance</a></li>
+<li><a href="#org389b353">2.3. Improve programming skills</a></li>
+<li><a href="#orga596dbf">2.4. Do more leisure activities</a></li>
+<li><a href="#org1424bad">2.5. Go for a walk more often</a></li>
+<li><a href="#orgd80993e">2.6. Learn how to ride a bike (and acquire one)</a></li>
+<li><a href="#org0f517b9">2.7. Be more informed</a></li>
+<li><a href="#org50e2cc1">2.8. Read more books</a></li>
+<li><a href="#org900dac0">2.9. Work on my style</a></li>
+<li><a href="#orge250a92">2.10. Reduce phone and social media usage</a></li>
+<li><a href="#org080ed63">2.11. Switch out passive consumption for more creative outlets</a></li>
+<li><a href="#org4340f8e">2.12. Learn how to order things online</a></li>
+<li><a href="#org1609f28">2.13. Take control of my personal finances</a></li>
+<li><a href="#org931988c">2.14. Start a personal blog</a></li>
+<li><a href="#org50f2e92">2.15. Reduce my carbon footprint</a></li>
+<li><a href="#orgb270f14">2.16. Learn how to touch type</a></li>
+<li><a href="#orgc65d476">2.17. Contribute to open source</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb786a51" class="outline-2">
+<h2 id="orgb786a51"><span class="section-number-2">1.</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+It seems a bit late for a post new years resolution.
+</p>
+
+<p>
+To be honest I've had my objectives written down for a couple of weeks prior, but my natural laziness, combined with exam period prevented me from organizing all of this in a clear manner.
+</p>
+
+<p>
+I usually don't bother with things like these, but this last semester has gone surprisingly well for me, reminding me once again that, with enough willpower and work nothing's impossible.
+</p>
+
+<p>
+So, without further ado, here are my goals for the year of 2025:
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge669570" class="outline-2">
+<h2 id="orge669570"><span class="section-number-2">2.</span> Objectives</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgd5635ec" class="outline-3">
+<h3 id="orgd5635ec"><span class="section-number-3">2.1.</span> Finish the year with good grades</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+I never considered myself a particularly brilliant student. I didn't bother studying until I was in 10th grade (or sophomore, as it seems to be called in the US).
+</p>
+
+<p>
+Even then I only studied enough to pass, school wasn't something I enjoyed and during that time I was going through a transitionary period in my life<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>, which didn't help my situation.
+</p>
+
+<p>
+Things changed when I went to retake my math exam, a year after getting out of school, I went from knowing practically zero about math to dominating it<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>.
+</p>
+
+<p>
+And then came university and&#x2026; well, I wouldn't call my first nor my second year perfect, in fact I felt pretty lost during those first 2 years and even wondered if Computer Science was right for me.
+</p>
+
+<p>
+This last semester felt different, for the first time I finally felt like I was starting to make sense of all of this.
+</p>
+
+<p>
+Focusing on achieving good grades may not be the <i>most efficient</i> method to get the hang of a subject, but at least it ensures that I understand what has been taught.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0900ae3" class="outline-3">
+<h3 id="org0900ae3"><span class="section-number-3">2.2.</span> Improve physical appearance</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+I remember being overweight as a child.
+I'm not overweight anymore, haven't been for a long time.
+</p>
+
+<p>
+Still, I'd be lying if I claimed to be satisfied with my current proportions. Particularly the size around my abdomen.
+</p>
+
+<p>
+For the past semester I've been doing a single meal a day, 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org389b353" class="outline-3">
+<h3 id="org389b353"><span class="section-number-3">2.3.</span> Improve programming skills</h3>
+</div>
+
+<div id="outline-container-orga596dbf" class="outline-3">
+<h3 id="orga596dbf"><span class="section-number-3">2.4.</span> Do more leisure activities</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Self explanatory, I wasn't the most organized last semester and my free time took a hit.
+</p>
+
+<p>
+By leisure activities I mean things like: Gaming, watching movies, going for walks&#x2026;
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1424bad" class="outline-3">
+<h3 id="org1424bad"><span class="section-number-3">2.5.</span> Go for a walk more often</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+There's nothing more relaxing than going for a walk. Especially when one lives so close to the sea and city park.
+</p>
+
+<p>
+Alas, this was another thing I sacrificed last semester.
+I should arrange to go outside at least twice per week.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd80993e" class="outline-3">
+<h3 id="orgd80993e"><span class="section-number-3">2.6.</span> Learn how to ride a bike (and acquire one)</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Okay, this one isn't really an objective per see, in fact I already know how to ride a bike!<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
+</p>
+
+<p>
+Although I think getting the hang of it to the point where I'm <del>road safe</del> proficient enough to ride alongside cars would be a good idea.
+</p>
+
+<p>
+Besides, I believe purchasing a bike would a good choice, both in terms of personal freedom as well as giving me another excuse to go outside.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0f517b9" class="outline-3">
+<h3 id="org0f517b9"><span class="section-number-3">2.7.</span> Be more informed</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+I can't help but feel like I've shut myself off the outside world these past few months, consequently, I find that I lack enough context to form my own opinions about current world affairs as well as national issues. Thus:
+</p>
+
+<ul class="org-ul">
+<li>I'm more prone to misinformation and less likely to identify it.</li>
+<li>I'm less informed and thus more likely to make "bad" choices during referendums and elections.</li>
+</ul>
+
+<p>
+As a means to counter these issues, I've decided to:
+</p>
+<ul class="org-ul">
+<li>Get a yearly subscription of a national newspaper.</li>
+<li>Get a library card, giving me free access to a ton of magazines and newspaper through <a href="https://www.pressreader.com">Press Reader</a>.</li>
+<li>Start following parliament and municipal council votes, parish council reunions and government issued laws.</li>
+<li>Read more books, especially ones related to political science and history.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org50e2cc1" class="outline-3">
+<h3 id="org50e2cc1"><span class="section-number-3">2.8.</span> Read more books</h3>
+</div>
+
+<div id="outline-container-org900dac0" class="outline-3">
+<h3 id="org900dac0"><span class="section-number-3">2.9.</span> Work on my style</h3>
+<div class="outline-text-3" id="text-2-9">
+<p>
+Pretty much all my clothes have been gifted to me over the years. 
+</p>
+
+<p>
+With the passage of time some of these items have worn/damaged, meanwhile others have become too loose or tight. Even ignoring this, most pieces of clothing don't match my style anymore, either due to age related reasons or simply because I find them plain ugly.
+</p>
+
+<p>
+After spending quite a bit of time around online male fashion communities I believe I've gotten my style down, with the only remaining thing left to do being actually buying the clothes themselves.
+</p>
+
+<p>
+Although this may prove to be a bit more challenging than initially anticipated, due to my interest in losing weight.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge250a92" class="outline-3">
+<h3 id="orge250a92"><span class="section-number-3">2.10.</span> Reduce phone and social media usage</h3>
+<div class="outline-text-3" id="text-2-10">
+<p>
+The smartphone was, by far, my biggest distraction this semester, frequently preventing me from focusing on classes and taking away my attention when going for a walk or waiting for something. <sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
+</p>
+
+<p>
+Instead of ditching the smartphone entirely <sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>, I've chosen to take a middle of the road solution, where I've hidden the browser (by far the biggest time sink) and use some extensions to limit time wasting sites (mainly social media).
+</p>
+
+<p>
+As for why I want to reduce social media usage, I already went over that topic in my first <a href="https://lovebird-connoisseur.github.io/blog/en/blogging-in-2025.html#orgf96bba9">article</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org080ed63" class="outline-3">
+<h3 id="org080ed63"><span class="section-number-3">2.11.</span> Switch out passive consumption for more creative outlets</h3>
+</div>
+
+<div id="outline-container-org4340f8e" class="outline-3">
+<h3 id="org4340f8e"><span class="section-number-3">2.12.</span> Learn how to order things online</h3>
+</div>
+
+<div id="outline-container-org1609f28" class="outline-3">
+<h3 id="org1609f28"><span class="section-number-3">2.13.</span> Take control of my personal finances</h3>
+</div>
+
+<div id="outline-container-org931988c" class="outline-3">
+<h3 id="org931988c"><span class="section-number-3">2.14.</span> Start a personal blog</h3>
+<div class="outline-text-3" id="text-2-14">
+<p>
+See <a href="blogging-in-2025.html">Starting a blog in 2025</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org50f2e92" class="outline-3">
+<h3 id="org50f2e92"><span class="section-number-3">2.15.</span> Reduce my carbon footprint</h3>
+<div class="outline-text-3" id="text-2-15">
+<p>
+My carbon footprint isn't particularly big, due to my extensive use of public transport for the vast majority of my transportation needs and because I actively avoid buying <del>unnecessary things</del> anything at all.
+</p>
+
+<p>
+Still, I believe this is a place where I could further improve on, mainly by replacing gels, liquids and pastes with solid variants, whenever possible.<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb270f14" class="outline-3">
+<h3 id="orgb270f14"><span class="section-number-3">2.16.</span> Learn how to touch type</h3>
+</div>
+
+<div id="outline-container-orgc65d476" class="outline-3">
+<h3 id="orgc65d476"><span class="section-number-3">2.17.</span> Contribute to open source</h3>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+I believe this may be called "growing up"
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Dominating as in "dominating what I already was supposed to know" 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3" role="doc-backlink">3</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Provided I don't need to make any turns. 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4" role="doc-backlink">4</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Being on the phone made me miss the bus more  times than I'd like to admit. 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5" role="doc-backlink">5</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Sacrificing email, Whatsapp and other things that may be useful when I'm out of home. 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6" role="doc-backlink">6</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Shampoo, cleanser, toothpaste, etc&#x2026;
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<hr />
+               <p class="contacts">
+                 <a href="https://github.com/Lovebird-Connoisseur">Github</a>
+                 <a href="mailto:wanderingkitty@tuta.io">Email</a>
+                </p>
+               <p class="postamble">The content under this site is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA </a>.</p>
+</div>
+</body>
+</html>
