@@ -1,0 +1,19 @@
+#+TITLE: New Year Resolution
+
+* TODO: See previous years resoution
+
+* Learn to cook
+
+* Read more books (~18)
+1. Poetry Home Repair Manual (28/12/25)
+2. Mundo, Pára Quieto (01/01/26)
+3. Time Traveller's Guide to Medieval England (27/01/26)
+4. The Pragmatic Programmer (18/02/26)
+5. If You Can (03/03/2026)
+* Do leetcode challenges & advent of code
+* Do more house chores
+** Ironing
+** Washing clothes
+** Hanging clothes
+** Doing the the dishes
+** Cleaning the house

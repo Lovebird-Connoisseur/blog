@@ -1,0 +1,138 @@
+#+TITLE: Objetives for the year of 2025
+#+SEQ_TODO: TODO(t) ONGOING(o) | SUCCESS(s) FAILED(f)
+
+* ONGOING Improve physical appearance
+
+Objective: 55kg and start bodybuilding
+
+I don't think it's correct to say that I'm overweight, my proportions are slim, except in the belly area. I want to lose a bit more weight before I commit to buying clothes.
+
+I suppose it's better to wait before splurging on clothes (especially since I plan to buy fewer, higher quality pieces).
+
+** Weight History
+- [21/09/24] 64.8kg
+- [26/09/24] 63.9kg
+- [27/09/24] 63.3kg
+- [04/10/24] 62.5kg
+- [13/10/24] 61.7Kg
+- [13/10/24] 60.7Kg
+- [18/10/24] 60.6Kg
+- [04/11/24] 59.7Kg
+- [05/11/24] 59.4Kg
+- [15/11/24] 59.1Kg
+- [20/11/24] 58.5Kg
+- [26/12/24] 58.0Kg
+- [19/07/24] 65.0kg
+- [02/12/25] 65.5kg
+
+
+* ONGOING Work on my style
+
+My clothes have been mostly gifted to me.
+With the passage of time some items have become worn/damaged, while others have become too loose or tight.
+
+Furthermore, I don't enjoy most of what I have. Especially since most of it has been gifted to me on my younger years, and at nearly 22 I'm trying to for a more "grown up" look.
+
+I seem to have gotten my style down, now the only things left are buying the pieces of clothing I need.
+
+Since I plan on keeping losing weight and I want to start working out, I suppose I should focus on items that won't be affected by my dimensions changing, such as shoes and gloves.
+
+
+* SUCCESS Do more leisure activities
+
+I spent wayy too much time studying last semester. Sacrificing my sleep and personal life.
+
+I should spend more time enjoying myself.
+
+** Activities:
+- Walking
+- Cycling
+- Gaming
+
+
+* ONGOING Learn how to ride a bike
+
+Having learned the basics of cycling a couple of months ago, I must say, it's quite fun!
+I think purchasing a bike would be a good choice, both for personal freedom (in terms of transport) and for health and entertainment reasons (I am more likely to go on a ride).
+
+* SUCCESS Be more informed
+
+I feel like I've closed myself shut off the outside world in the past months, consequently, I lack most of the context to form my own opinions about the state of the world and my country, which negatively affects me in various situations:
+
+1. I'm more prone to misinformation and less likely to identify it.
+2. I'm a less informed citizen, and thus more likely to make "bad" choices during referendums and elections.
+
+To counter these issues I've decided to:
+- Start paying more attention to the news, by buying a yearly subscription to a national newspaper. I also plan on getting a library card, which gives me free access to a few international magazines/newspapers.
+- Read more books, especially about history and political ideologies.
+- Start following meetings and parliamentary votes, by following a variety of websites publishing this info.
+
+
+* ONGOING Read more books
+
+Another thing I mostly stopped doing when I entered university.
+I'm considering buying a ereader to make reading on the go an easier affair.
+
+
+* SUCCESS [[https://nosurf.net/about/][NoSurf]] Challenge
+
+The smartphone was, by far, my biggest distraction this semester, frequently preventing me from foccusing on classes and taking away my attention when going for a walk or waiting for something. [fn:1]
+
+Instead of ditching the smartphone and buying a dumbphone [fn:2], I've chosen to take a middle of the road solution, where I've hidden the browser app (which is by far the biggest timesink) and showing a little more restraint (with the additional help of some browser extensions).
+
+Additionally, I've decided to reduce further reduce time spent on social media, instead trying to shift onto less "passive" hobbies, and things that bring me more joy than just lazy scrolling (which, despite having low friction, is not something I can say I enjoy).
+
+
+* TODO Improve my programming skills
+
+My course is Computer Science, so the objective isn't really to be a good programmer. Still, honing my programming skills would allow me to potentially tackle larger problems, as well as start contributing to open source projects.
+
+Furthermore, programming is a tool, a means to an end. And I feel the need to know my tools, their limits and what they're capable of.
+
+
+* SUCCESS Learn to order things online
+
+Ever since the dawn of time I've relied on others to order things online.
+
+I hate being reliant on others, especially for something so trivial, but for some reason I never got around to figuring out how all this "online shopping" thing works.
+
+
+* TODO Take control of my finances [0/3]
+
+** TODO Change to a bank that doesn't have commisions (Activo Bank)
+Remember to update the IBAN on social security and finances!!!
+
+** TODO Create a emergency fund
+Where to place it?
+
+** TODO Start investing
+Broker: IBKR
+Current plan: 85% world ETF and 15% bond ETF
+Aim to allocate 50% of income to investments
+
+
+* SUCCESS DONE Start a personal blog
+
+Writing is one of the things I enjoy, sadly I haven't had much reason to do so.
+
+My childhood was spent watching people narrating over gameplay footage on Youtube. [fn:6]
+While I don't plan on making Youtube videos, I figured a little outlet to express myself wouldn't hurt, especially since I basically don't use social media.
+
+* TODO Learn how to touch type
+
+Objective: 98% accuracy & 100wpm
+
+
+* TODO Contribute to open source
+
+Ideas: StumpWM, Emacs (+ packages), SBCL, Linux, ghc, Mezzano
+
+
+* Footnotes
+[fn:6] And I still enjoy doing it!!!
+
+[fn:5] Even if it doesn't, I like to further my understanding.
+
+[fn:2] Sacrificing email, whatsapp and other things that may be useful when I'm out of home.
+
+[fn:1] Being on the phone made me miss the bus more  times than I'd like to admit.
