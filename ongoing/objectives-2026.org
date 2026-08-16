@@ -12,6 +12,7 @@
 5. If You Can (03/03/2026)
 6. Practical Common Lisp (15/06/2026)
 7. Autocracy, Inc (20/06/2026)
+8. Por Dentro do Chega (10/08/2026)
 * Do leetcode challenges & advent of code
 * Do more house chores
 ** Ironing
